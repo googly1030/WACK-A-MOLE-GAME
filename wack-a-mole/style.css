@@ -1,0 +1,45 @@
+*
+{
+  background-color: rgb(252, 252, 252)
+}
+#title
+{
+  font-weight: bolder;
+  text-align: center;
+}
+.grid
+{
+  width: 610px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 20px;
+ 
+}
+.square
+{
+  width: 200px;
+  height: 200px;
+  border: solid black 1px;
+}
+.mole {
+  width: 200px;
+  height: 200px;
+  border: solid black 1px;
+  background-image: url('/all_images/istockphoto-1375826186-612x612.jpg'); 
+  background-size: cover; 
+}
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+#button1,
+#button2 {
+  background-color: rgb(0, 255, 98);
+  border-radius: 5px;
+  width: 50px;
+  margin: 0 5px; 
+}
